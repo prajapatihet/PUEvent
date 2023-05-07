@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EventRegistrationActivity"
+    android:gravity="center"
+    android:background="@color/white"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Attendee information"
+            android:textAlignment="center"
+            android:textSize="35sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/attendee_event_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:textSize="22sp"
+            android:text="Event Name"
+            android:gravity="center"
+            android:textColor="@color/black"
+            />
+
+        <EditText
+            android:id="@+id/attendee_name"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/round_background_dark_blue5_15"
+            android:hint="Enter Name"
+            android:textColorHint="#674343"
+            android:maxLines="1"
+            android:textColor="#964B00"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="40dp"
+            />
+        <EditText
+            android:id="@+id/attendee_email"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/round_background_dark_blue5_15"
+            android:hint="Enter E-mail"
+            android:textColorHint="#674343"
+            android:maxLines="1"
+            android:textColor="#964B00"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="40dp"
+            />
+        <EditText
+            android:id="@+id/attendee_number"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/round_background_dark_blue5_15"
+            android:hint="Enter Mobile Number"
+            android:textColorHint="#674343"
+            android:maxLines="1"
+            android:textColor="#964B00"
+            android:inputType="text"
+            android:textSize="16sp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="40dp"
+            />
+        <Button
+            android:id="@+id/attendee_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Submit"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:background="@drawable/submit_btn_bg"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

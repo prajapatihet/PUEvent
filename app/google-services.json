@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "61675998104",
+    "project_id": "puevents-61f79",
+    "storage_bucket": "puevents-61f79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61675998104:android:32e4288f05ec042193b9ed",
+        "android_client_info": {
+          "package_name": "com.techflix.puevents"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61675998104-kum4mg46hr23us3duv21s3ds1274iimi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbFyT9TrUOFWsqTGp9C-bSopUL26AAgI0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61675998104-kum4mg46hr23us3duv21s3ds1274iimi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_admin_add_events"
+        android:orderInCategory="100"
+        android:title="Add Events"/>
+
+    <item
+        android:id="@+id/action_admin_logout"
+        android:orderInCategory="100"
+        android:title="LogOut"
+        />
+</menu>
