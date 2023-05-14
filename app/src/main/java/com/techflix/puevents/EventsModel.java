@@ -38,6 +38,14 @@ public class EventsModel {
         this.event_date_time = event_date_time;
         this.event_mode = event_mode;
     }
+    public EventsModel(String event_name, String event_description, String event_eligibility, String event_location, String event_date_time, String event_mode) {
+        this.event_name = event_name;
+        this.event_description = event_description;
+        this.event_eligibility = event_eligibility;
+        this.event_location = event_location;
+        this.event_date_time = event_date_time;
+        this.event_mode = event_mode;
+    }
 
     public String getEvent_mode() {
         return event_mode;
